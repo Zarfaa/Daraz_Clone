@@ -1,0 +1,66 @@
+.button_container{
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+.custom-button1 , .custom-button2, .custom-button3, .custom-button4, .custom-button5{
+    border-radius: 25px;
+    width: 280px; 
+    height: 40px;
+    background-color: white;
+    text-align:inherit;
+    padding-left: 40px;
+    font-size: 16px;
+    position: absolute;
+  }
+
+.button_img{
+  width: 11%;
+  height: 85%;
+}
+
+.custom-button1,
+.custom-button2,
+.custom-button4,
+.custom-button3 {
+  position: relative;
+}
+
+.custom-button1 img,
+.custom-button2 img,
+.custom-button4 img,
+.custom-button3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1%;
+}
+
+.custom-button1::before,.custom-button2::before, .custom-button3::before,.custom-button4::before{
+  content: ">";
+  font-weight: 950;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  opacity: 0;
+  padding-right: 10%;
+
+}
+
+.custom-button1:hover::before,.custom-button2:hover::before,.custom-button3:hover::before,.custom-button4:hover::before {
+  opacity: 1;
+}
+
+.custom-button1:hover{
+  color: palegreen;
+}
+
+.custom-button2:hover{
+  color: rgb(252, 207, 8);
+}
+

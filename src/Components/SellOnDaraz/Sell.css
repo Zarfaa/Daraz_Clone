@@ -1,0 +1,40 @@
+.Seller{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.Seller img{
+    width: 350px;
+    height: 600px;
+
+}
+
+.Images{
+    width: 1250px;
+    height: 400px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.Image1{
+    margin-left: 100px;
+}
+
+.Image2{
+   height : 600px
+}
+
+.Image3{
+    width: 1250px;
+    height: 1000px;
+    padding-left: 100px;
+}
+
+.Testimonal_Image{
+    width: 1250px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}

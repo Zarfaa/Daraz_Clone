@@ -1,0 +1,12 @@
+.Footer2{
+    display: flex;
+    gap: 60px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 70px;   
+}
+
+.copy{
+    margin-top: 20px ;
+}

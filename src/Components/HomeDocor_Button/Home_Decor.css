@@ -1,0 +1,10 @@
+.Room_Cateogires{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10% ;
+    margin-right: 10%;
+}
+
+.Room_Cateogires div{
+    flex: 0 0 25%;
+}

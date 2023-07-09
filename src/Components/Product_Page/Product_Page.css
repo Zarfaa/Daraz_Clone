@@ -1,0 +1,25 @@
+.Product_Container {
+    background-color: white;
+    display: flex;
+    margin: 5%;
+  }
+  
+  .Product_image img {
+    width: 50%;
+  }
+  
+  .Product_description h3 {
+    font-size: 200%;
+    margin-bottom: 5%;
+  }
+
+  .Product_description p {
+    margin-bottom: 5%;
+  }
+  
+  
+  .product-Button {
+    display: flex;
+    justify-content: space-between;
+  }
+  

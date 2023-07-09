@@ -1,0 +1,21 @@
+.Products_Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10% ;
+    margin-right: 10%;
+}
+
+.Products_Container div{
+    flex: 0 0 33.333333%;
+}
+
+.Products_Container img{
+    width: 98%
+}
+
+.Section_title,.Section_subtitle{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 250%;
+}
