@@ -19,16 +19,16 @@ const Carousel= () => {
       };
   return (
     <Slider {...settings}>
-      <div className="Caresoul_img">
+      <div className="Caresoul_img1">
       <img src={Beauty_Carousel1} alt="Beauty_Carousel1" />
 </div>
-<div className="Caresoul_img">
+<div className="Caresoul_img1">
   <img src={Beauty_Carousel2} alt="Beauty_Carousel2" />
 </div>
-<div className="Caresoul_img">
+<div className="Caresoul_img1">
   <img src={Beauty_Carousel3} alt="Beauty_Carousel3" />
 </div>
-<div className="Caresoul_img">
+<div className="Caresoul_img1">
   <img src={Beauty_Carousel4} alt="Beauty_Carousel4" />
 </div>
       </Slider>

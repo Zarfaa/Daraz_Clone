@@ -28,6 +28,7 @@
 .custom-button4,
 .custom-button3 {
   position: relative;
+  border: none
 }
 
 .custom-button1 img,

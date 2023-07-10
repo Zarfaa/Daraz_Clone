@@ -6,27 +6,26 @@ import CartIcon from "../../Assets/cart.png"
 import App from "../../Assets/App.png"
 
 let Navbar = () => {
-
  return (
    <header  className="Nav_Container"  >
 
-    <div> 
-      <nav className="NavBar1" fixed="top">
+<div>
+      <nav className="NavBar1">
         <ul className="navbar-list">
-          <li><Link className="Save_on_app" >SAVE MORE ON APP</Link></li>
+          <li><Link className="Save_on_app">SAVE MORE ON APP</Link></li>
           <li><Link to="Affiliate">DARAZ AFFILIATE PROGRAM</Link></li>
           <li><Link to="Sell">SELL ON DARAZ</Link></li>
           <li><Link >CUSTOMER CARE</Link></li>
           <li><Link >TRACK YOUR ORDER</Link></li>
           <li><Link to="/signup">SIGNUP</Link></li>
           <li><Link to="/login">LOGIN</Link></li>
-          <li><Link >زبان تبدیل کریں</Link></li> 
+          <li><Link>زبان تبدیل کریں</Link></li>
         </ul>
       </nav>
     </div>
 
     <div>
-      <nav className="NavBar2" fixed="top">
+      <nav className="NavBar2" >
         <div>
           <div>
         <Link to="/">
@@ -35,19 +34,12 @@ let Navbar = () => {
         </div>
         <div className="dropdown_Menu" >
            <div className="dropdown">
-   <button onclick="myFunction()" className="dropbtn" >Categories</button>
+   <button className="dropbtn" >Categories</button>
   <div class="dropdown-content">
-    <Link >Groceries & Pets</Link>
-    <Link >Health & Beauty</Link>
-    <Link >Men's Fashion</Link>
-     <Link >Women's Fashion</Link>
-          <Link >Mother & Baby</Link>
-          <Link>Home & Lifestyle</Link>
-          <Link>Electronic Devices</Link>
-          <Link>TV & Home Appliances</Link>
-          <Link>Electronic Accessories</Link> 
-          <Link>Sports & Outdoor</Link>
-          <Link>Watches, Bags & Jewellery</Link>
+    <Link to="/Mart">Groceries & Pets</Link>
+    <Link to="Beauty">Health & Beauty</Link>
+     <Link to="Fashion">Women's Fashion</Link>
+    <Link to="/HomeDecor">Home & Lifestyle</Link>
        </div>
        </div>
         </div>
@@ -58,7 +50,7 @@ let Navbar = () => {
             <img className="button_image" src={buttonIcon} alt="Button" />
           </button>
         </form>
-        <Link to="/SignUp">
+        <Link to="/Login">
           <img className="cart-logo" src={CartIcon} alt="Cart" />
         </Link>
         <Link to="/SignUp">

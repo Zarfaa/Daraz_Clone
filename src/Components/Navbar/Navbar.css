@@ -1,75 +1,74 @@
-.NavBar1{
-    background-color: rgb(240, 240, 240);
-    padding : 5px;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 25%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.NavBar1 {
+  background-color: rgb(240, 240, 240);
+  padding: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar-list {
-    list-style-type: none;
-    display: flex;
-    gap: 30px; 
-  }
-  
-  .navbar-list li {
-    padding: 0;
-  }
-.Save_on_app{
-    color: rgb(255, 81, 0);
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
 }
 
-.NavBar2{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    margin-top: 2%;
-    padding: 10px;
+.navbar-list li {
+  padding: 0;
 }
 
-
-
-form{
-    margin-left: 5%;
+.Save_on_app {
+  color: rgb(255, 81, 0);
 }
 
-input{
-    padding: 14px;
-    width: 550px;
-    background-color: rgb(240, 240, 240);
-}
-button{
-    padding: 12px;
-    background-color: rgb(255, 81, 0);
+.NavBar2 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin-top: 2%;
+  padding: 10px;
 }
 
-.button_image{
-    width: 20px;
-    height: 14px;
+form {
+  margin-left: 5%;
 }
 
-.nav-logo{
-    width: 150px;
-    height: 40px;
-    margin-left: 50px;
-    
+input {
+  padding: 14px;
+  width: 550px;
+  background-color: rgb(240, 240, 240);
 }
 
-.cart-logo{
-    width: 45px;
-    height: 45px;
-    margin-left: 20px;
-    padding-top: 15px;
+button {
+  padding: 12px;
+  background-color: rgb(255, 81, 0);
 }
 
-.App-logo{
-    width: 200px;
-    height: 50px;
-    margin-left: 40px;
+.button_image {
+  width: 20px;
+  height: 14px;
+}
+
+.nav-logo {
+  width: 150px;
+  height: 40px;
+  margin-left: 50px;
+}
+
+.cart-logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.App-logo {
+  width: 200px;
+  height: 50px;
+  margin-left: 40px;
 }
 
 .dropbtn {
@@ -80,39 +79,74 @@ button{
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown_Menu{
+.dropdown_Menu {
   margin-left: 40%;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
-  top: 0
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-
 .dropdown-content a {
   color: black;
-  padding: 4% ;
+  padding: 4%;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #fffdfd;}
+.dropdown-content a:hover {
+  background-color: #fffdfd;
+}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #fafafa;}
+.dropdown:hover .dropbtn {
+  background-color: #fafafa;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .NavBar1 {
+    padding-left: 10px;
+  }
+
+  .navbar-list {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navbar-list li {
+    padding: 5px;
+  }
+
+  .nav-logo,
+  .cart-logo,
+  .App-logo {
+    margin-left: 10px;
+  }
+
+  .dropdown_Menu {
+    margin-left: 10px;
+  }
+  
+  .dropdown-content {
+    min-width: 120px;
+  }
+
+  input {
+    width: 100%;
+  }
+}

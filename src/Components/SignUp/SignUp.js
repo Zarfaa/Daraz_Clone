@@ -9,23 +9,21 @@ let Signup = () => {
       <div className="form-container">
         <div className="column">
           <form>
+          <div className="form-row">
+            <label htmlFor="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              placeholder="Enter your first and last name"
+              required
+            />
+          </div>
             <div className="form-row">
               <label htmlFor="phoneNumber">Phone Number</label>
               <input
                 type="text"
                 id="phoneNumber"
                 placeholder="Please enter your phone number"
-                required
-              />
-            </div>
-            <div className="form-row">
-              <label htmlFor="verificationCode">
-                Verification Code from WhatsApp
-              </label>
-              <input
-                type="text"
-                id="verificationCode"
-                placeholder="Verification Code"
                 required
               />
             </div>
@@ -38,63 +36,45 @@ let Signup = () => {
                 required
               />
             </div>
-            <div className="form-row">
-              <label htmlFor="birthdayMonth">Birthday</label>
-              <select id="birthdayMonth">
-                <option value="">Month</option>
-              </select>
-              <select id="birthdayDay">
-                <option value="">Day</option>
-              </select>
-              <select id="birthdayYear">
-                <option value="">Year</option>
-              </select>
-              <label htmlFor="gender">Gender</label>
-              <select id="gender">
-                <option value="">Select</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
+            <div class="form-row">
+  <div class="row-item">
+    <label for="birthdayMonth">Birthday</label>
+    <select id="birthdayMonth">
+      <option value="">Select</option>
+      <option>January</option>
+      <option>February</option>
+      <option>March</option>
+      <option>April</option>
+    </select>
+    <select id="birthdayDay">
+      <option value="">Select</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+    </select>
+    <select id="birthdayYear">
+      <option value="">Select</option>
+      <option>2000</option>
+      <option>2002</option>
+      <option>2003</option>
+    </select>
+    <label for="gender">Gender</label>
+    <select id="gender">
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+</div>
+<div class="form-row">
+  <button>SIGN UP</button>
+</div>
           </form>
         </div>
-        <div className="column">
-
-          <div className="form-row">
-            <label htmlFor="fullName">Full Name</label>
-            <input
-              type="text"
-              id="fullName"
-              placeholder="Enter your first and last name"
-              required
-            />
-          </div>
-
-          <div className="form-row">
-            <input type="checkbox" id="exclusiveOffers" checked />
-            <label htmlFor="exclusiveOffers">
-              I'd like to receive exclusive offers and promotions via SMS
-            </label>
-          </div>
-          <div className="form-row">
-            <input type="submit" value="SIGN UP" />
-          </div>
-          <div className="form-row">
-      <p className="Policy_text">
-        By clicking “SIGN UP”, I agree to Daraz's Terms of Use and Privacy
-        Policy
-      </p>
-      <p className="Policy_text">Or, sign up with:</p>
-      </div>
-      <div className="form-row">
-      <div className="social-login">
-        <button className="facebook">Facebook</button>
-        <button className="google">Google</button>
-      </div>
-      </div>
-        </div>
-
       </div>
      
       <Footer1 />

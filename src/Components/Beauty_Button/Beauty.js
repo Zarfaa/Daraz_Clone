@@ -10,7 +10,7 @@ import Bath from "../../Assets/Bath.png"
 import BeautyTools from "../../Assets/Beauty_Tools.png"
 import Carousel from "./Carousel"
 import ProductCard from "../Products/ProductCard"
-import "./Beauty.css"
+
 let Beauty = () =>{
     return(
         < div className = "Section_container">

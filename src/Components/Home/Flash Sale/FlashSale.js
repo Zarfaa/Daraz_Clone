@@ -52,7 +52,9 @@ let FlashSale = () =>{
         </div>
         <div class="product-card4">
           <div class="product-image">
+          <Link to="/ProductPage4">
             <img src={product4} alt="Feeder Cleaner" />
+            </Link>
           </div>
           <div class="product-details">
             <p class="product-description">Feeder Cleaner</p>
@@ -63,7 +65,9 @@ let FlashSale = () =>{
         </div>
         <div class="product-card5">
           <div class="product-image">
+          <Link to="/ProductPage5">
             <img src={product5} alt="Multi Vitamin Super Food" />
+            </Link>
           </div>
           <div class="product-details">
             <p class="product-description">Multi Vitamin Super Food</p>
@@ -74,7 +78,9 @@ let FlashSale = () =>{
         </div>
         <div class="product-card6">
           <div class="product-image">
+          <Link to="/ProductPage6">
             <img src={product6} alt="Smart Watch" />
+            </Link>
           </div>
           <div class="product-details">
             <p class="product-description">Smart Watch</p>

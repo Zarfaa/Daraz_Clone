@@ -1,56 +1,43 @@
-.Container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin-top: 70px;
-  }
-  
-  .Title{
-     text-align: center;
-     margin-bottom: 20px;
-  }
 
-  .Forget_password{
-   margin-left: 65%;
-   background-color: white;
-    color: #18cf55;
-    border: none;
-    cursor: pointer;
-  }
+.Login-container {
+  max-width: 550px;
+  margin-top: 2%;
+  margin-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 2%;
+  padding: 5%;
+}
 
-  .ContentBorder {
-    border: 2px solid #18cf55;
-    padding: 35px;
-  }
+.form-title{
+  margin-left: 25%;
+}
   
-  .ContentBorder > div {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .ContentBorder label {
-    min-width: 100px; 
-  }
-  
-  .ContentBorder input,
-  .ContentBorder select {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  .button {
-    background-color: #18cf55;
-    padding: 20px 60px;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+.row {
+  margin-bottom: 15px;
+  width: 150%;
+}
 
-  .button:hover{
-    color :#18cf55;
-    border: 1px solid #18cf55
-  }
+.row label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.row input,
+.row select {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+.row button{
+ border:none;
+ color: white;
+ width: 110%;
+ margin-top: 5%;
+}
 
