@@ -53,7 +53,7 @@ let Navbar = () => {
         <Link to="/Login">
           <img className="cart-logo" src={CartIcon} alt="Cart" />
         </Link>
-        <Link to="/SignUp">
+        <Link to="/Download">
           <img className="App-logo" src={App} alt="Download Daraz App" />
         </Link>  
       </nav>

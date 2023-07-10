@@ -16,6 +16,7 @@ import ProductPage3 from "./Components/Product_Page/Product_Page3"
 import ProductPage4 from "./Components/Product_Page/Product_Page4"
 import ProductPage5 from "./Components/Product_Page/Product_Page5"
 import ProductPage6 from "./Components/Product_Page/Product_Page6"
+import Download from './Components/DownloadNow/Download';
 function App() {
   return (
     <div className="App">
@@ -37,6 +38,7 @@ function App() {
             <Route path="/ProductPage4" element={<ProductPage4/>}></Route>
             <Route path="/ProductPage5" element={<ProductPage5/>}></Route>
             <Route path="/ProductPage6" element={<ProductPage6/>}></Route>
+            <Route path="/Download" element={<Download/>}></Route>
           </Routes>
         </BrowserRouter>
     </div>
