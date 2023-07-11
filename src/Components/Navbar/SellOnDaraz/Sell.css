@@ -1,0 +1,35 @@
+.Seller{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.Seller img{
+    width: 350px;
+    height: 600px;
+
+}
+
+.Section_Images{
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.Image1{
+    margin-left: 100px;
+}
+
+.Image2{
+   height : 600px
+}
+
+.Image3{
+    width: 90%;
+    height: auto;
+   margin-left: 5%;
+   margin-right: 15%;
+}

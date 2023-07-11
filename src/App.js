@@ -1,22 +1,28 @@
 import './App.css';
+import React from 'react';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar"
 import Signup from "./Components/SignUp/SignUp"
 import Login from "./Components/Login/Login"
 import Home from './Components/Home/Home';
-import Affiliate from './Components/DarazAffiliate/Affiliate';
-import Sell from "./Components/SellOnDaraz/Sell"
-import Mart from "./Components/Mart_Button/Mart"
-import Beauty from "./Components/Beauty_Button/Beauty"
-import Fashion from "./Components/Fashion_Button/Fashion"
-import HomeDecor from "./Components/HomeDocor_Button/Home_Decor"
-import ProductPage1 from "./Components/Product_Page/Product_Page1"
-import ProductPage2 from "./Components/Product_Page/Product_Page2"
-import ProductPage3 from "./Components/Product_Page/Product_Page3"
-import ProductPage4 from "./Components/Product_Page/Product_Page4"
-import ProductPage5 from "./Components/Product_Page/Product_Page5"
-import ProductPage6 from "./Components/Product_Page/Product_Page6"
-import Download from './Components/DownloadNow/Download';
+import Affiliate from './Components/Navbar/DarazAffiliate/Affiliate';
+import Sell from "./Components/Navbar/SellOnDaraz/Sell"
+import Mart from "./Components/Home/Category_Buttons/Mart_Button/Mart"
+import Beauty from "./Components/Home/Category_Buttons/Beauty_Button/Beauty"
+import Fashion from "./Components/Home/Category_Buttons/Fashion_Button/Fashion"
+import HomeDecor from "./Components//Home/Category_Buttons/HomeDocor_Button/Home_Decor"
+import ProductPage1 from "./Components/Home/Flash Sale/Product_Page/Product_Page1"
+import ProductPage2 from "./Components/Home/Flash Sale/Product_Page/Product_Page2"
+import ProductPage3 from "./Components/Home/Flash Sale/Product_Page/Product_Page3"
+import ProductPage4 from "./Components/Home/Flash Sale/Product_Page/Product_Page4"
+import ProductPage5 from "./Components/Home/Flash Sale/Product_Page/Product_Page5"
+import ProductPage6 from "./Components/Home/Flash Sale/Product_Page/Product_Page6"
+import Download from './Components/Navbar/DownloadNow/Download';
+import SingleProduct from "./Components/Products/SingleProduct"
+import Electronics from "./Components/Products/Electronics"
+import Jewelery from "./Components/Products/Jewelery"
+import MClothing from "./Components/Products/MClothing"
+import FClothing from "./Components/Products/FClothing"
 function App() {
   return (
     <div className="App">
@@ -39,6 +45,11 @@ function App() {
             <Route path="/ProductPage5" element={<ProductPage5/>}></Route>
             <Route path="/ProductPage6" element={<ProductPage6/>}></Route>
             <Route path="/Download" element={<Download/>}></Route>
+            <Route path="/products/:id" element={<SingleProduct/>}></Route>
+            <Route path="/Electronics" element = {<Electronics/>}></Route>
+            <Route path="/Jewelery" element = {<Jewelery/>}></Route>
+            <Route path="/MClothing" element = {<MClothing/>}></Route>
+            <Route path="/FClothing" element = {<FClothing/>}></Route>
           </Routes>
         </BrowserRouter>
     </div>

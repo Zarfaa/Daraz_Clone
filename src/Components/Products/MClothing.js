@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect} from "react";
 import "./Products.css"; 
 
-const ProductCard = () => {
+const MClothing = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch("https://fakestoreapi.com/products/");
+      const response = await fetch("https://fakestoreapi.com/products/category/men's clothing");
       const data = await response.json();
       console.log(data);
       setProducts(data);
@@ -41,4 +41,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default MClothing
