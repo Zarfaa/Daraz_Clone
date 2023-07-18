@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import Protector from "../../../../Assets/Protector.png";
 import Footer1 from "../../Footer/Footer1"
 import Footer2 from "../../Footer/Footer2"
@@ -11,8 +11,13 @@ const Product = () => {
     setIsAddedToCart(true);
     setTimeout(() => {
       setIsAddedToCart(false);
-    }, 2000); // Remove the alert after 2 seconds
+    }, 2000);
   };
+
+  const[popup,setPopup] = useState("")
+  useEffect(()=>{
+    alert("welcome to product1 page.")
+  },[popup])
 
   return (
     <>

@@ -14,8 +14,9 @@ img {
     width: 170px;
 }
 
-.product-price{
+.product-price:hover{
     color: orangered;
+    scale: 2;
 }
 
 .product-discounted-price{
@@ -30,6 +31,7 @@ img {
 
 .product-card1:hover ,.product-card2:hover ,.product-card3:hover , .product-card4:hover ,.product-card5:hover ,.product-card6:hover {
     box-shadow: 0 0 10px rgba(131, 128, 128, 0.5);
+    scale: 2;
   }
 
   .container2{
@@ -39,12 +41,14 @@ img {
    gap:80%;
    padding: 5px;
   }
-  .Div_title{
+  .Div_title:hover{
     color: orangered;
+    scale: 1;
 }
 
-.container2 button{
+.container2 button :hover{
     color: orangered;
     border: solid  orangered;
     background-color: white;
+    scale: 1;
 }

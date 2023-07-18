@@ -23,6 +23,7 @@ import Electronics from "./Components/Products/Electronics"
 import Jewelery from "./Components/Products/Jewelery"
 import MClothing from "./Components/Products/MClothing"
 import FClothing from "./Components/Products/FClothing"
+import SignUpPage from "./Components/SignUp/SignUpPage"
 function App() {
   return (
     <div className="App">
@@ -50,6 +51,7 @@ function App() {
             <Route path="/Jewelery" element = {<Jewelery/>}></Route>
             <Route path="/MClothing" element = {<MClothing/>}></Route>
             <Route path="/FClothing" element = {<FClothing/>}></Route>
+            <Route path="/SignUpPage" element = {<SignUpPage/>}></Route>
           </Routes>
         </BrowserRouter>
     </div>

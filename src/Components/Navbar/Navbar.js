@@ -14,7 +14,7 @@ let Navbar = () => {
         <ul className="navbar-list">
           <li><Link className="Save_on_app">SAVE MORE ON APP</Link></li>
           <li><Link to="Affiliate">DARAZ AFFILIATE PROGRAM</Link></li>
-          <li><Link to="Sell">SELL ON DARAZ</Link></li>
+          <li className="SELL"><Link to="Sell">SELL ON DARAZ</Link></li>
           <li><Link >CUSTOMER CARE</Link></li>
           <li><Link >TRACK YOUR ORDER</Link></li>
           <li><Link to="/signup">SIGNUP</Link></li>

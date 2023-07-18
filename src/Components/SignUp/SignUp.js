@@ -1,6 +1,7 @@
 import "./SignUp.css";
 import Footer1 from "../Home/Footer/Footer1";
 import Footer2 from "../Home/Footer/Footer2";
+import { Link } from "react-router-dom";
 
 let Signup = () => {
   return (
@@ -71,7 +72,9 @@ let Signup = () => {
     </div>
 </div>
 <div class="form-row">
+  <Link to="/SignUpPage">
   <button>SIGN UP</button>
+  </Link>
 </div>
           </form>
         </div>

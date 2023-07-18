@@ -11,7 +11,7 @@ let Product = () =>
       setIsAddedToCart(true);
       setTimeout(() => {
         setIsAddedToCart(false);
-      }, 2000); // Remove the alert after 2 seconds
+      }, 2000); 
     };
   
     return(

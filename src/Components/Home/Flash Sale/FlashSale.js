@@ -8,6 +8,8 @@ import product6 from "../../../Assets/watches.jpg"
 import {Link} from "react-router-dom";
 let FlashSale = () =>{
     return(
+      <>
+       <alert>welcome to Flash sale Product page</alert>
       <div className="Sale_container">
       <h2>Flash Sale</h2>
       <div className="Products">
@@ -30,6 +32,7 @@ let FlashSale = () =>{
             <img src={product2} alt="Laptop Cooling Pad" />
             </Link>
           </div>
+          <alert>welcome to Flash sale Product page</alert>
           <div class="product-details">
             <p class="product-description">Laptop Cooling Pad Turbo Cooling pad for laptop - 2 Fans</p>
             <p class="product-price">Rs.699</p>
@@ -91,6 +94,7 @@ let FlashSale = () =>{
         </div>
       </div>
     </div>
+    </>
     
     )
 }
